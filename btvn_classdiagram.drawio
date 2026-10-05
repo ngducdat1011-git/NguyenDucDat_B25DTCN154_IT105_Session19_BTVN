@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Activity - Dat hang Online" id="rfm-activity">
+    <mxGraphModel dx="1054" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="s1foQ6AiXAOV1JEkFpIX-14" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="KhachHang" vertex="1">
+          <mxGeometry height="128" width="160" x="425" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="s1foQ6AiXAOV1JEkFpIX-15" parent="s1foQ6AiXAOV1JEkFpIX-14" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- hoTen()&lt;div&gt;- email()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="47" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="s1foQ6AiXAOV1JEkFpIX-16" parent="s1foQ6AiXAOV1JEkFpIX-14" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="73" as="geometry" />
+        </mxCell>
+        <mxCell id="s1foQ6AiXAOV1JEkFpIX-17" parent="s1foQ6AiXAOV1JEkFpIX-14" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ xemSanPham()&lt;div&gt;+ datHang()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="47" width="160" y="81" as="geometry" />
+        </mxCell>
+        <mxCell id="s1foQ6AiXAOV1JEkFpIX-18" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="DonHang" vertex="1">
+          <mxGeometry height="118" width="160" x="690" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="s1foQ6AiXAOV1JEkFpIX-19" parent="s1foQ6AiXAOV1JEkFpIX-18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- ngayDat()&lt;div&gt;- maGiamGia()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="47" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="s1foQ6AiXAOV1JEkFpIX-20" parent="s1foQ6AiXAOV1JEkFpIX-18" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="73" as="geometry" />
+        </mxCell>
+        <mxCell id="s1foQ6AiXAOV1JEkFpIX-21" parent="s1foQ6AiXAOV1JEkFpIX-18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ taoDonHang()&lt;div&gt;+ apDungMaGiamGia()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="37" width="160" y="81" as="geometry" />
+        </mxCell>
+        <mxCell id="s1foQ6AiXAOV1JEkFpIX-27" edge="1" parent="1" source="s1foQ6AiXAOV1JEkFpIX-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERoneToMany;startFill=0;endArrow=ERzeroToMany;endFill=0;" target="s1foQ6AiXAOV1JEkFpIX-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s1foQ6AiXAOV1JEkFpIX-22" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="SanPham" vertex="1">
+          <mxGeometry height="114" width="160" x="960" y="612" as="geometry" />
+        </mxCell>
+        <mxCell id="s1foQ6AiXAOV1JEkFpIX-23" parent="s1foQ6AiXAOV1JEkFpIX-22" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- tenSanPham()&lt;div&gt;- donGia()&lt;/div&gt;&lt;div&gt;- soLuongTon()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="s1foQ6AiXAOV1JEkFpIX-24" parent="s1foQ6AiXAOV1JEkFpIX-22" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s1foQ6AiXAOV1JEkFpIX-25" parent="s1foQ6AiXAOV1JEkFpIX-22" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ kiemTraTonKho()" vertex="1">
+          <mxGeometry height="26" width="160" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="s1foQ6AiXAOV1JEkFpIX-26" edge="1" parent="1" source="s1foQ6AiXAOV1JEkFpIX-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.005;entryY=0.606;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=ERone;startFill=0;endArrow=ERzeroToMany;endFill=0;" target="s1foQ6AiXAOV1JEkFpIX-19">
+          <mxGeometry relative="1" x="-0.0028" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

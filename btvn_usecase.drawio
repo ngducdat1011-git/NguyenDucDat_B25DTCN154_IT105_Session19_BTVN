@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Activity - Dat hang Online" id="rfm-activity">
+    <mxGraphModel dx="1240" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="s1foQ6AiXAOV1JEkFpIX-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=none;strokeColor=#000000;fontStyle=1;fontSize=13;" value="Hệ thống đặt hàng Online" vertex="1">
+          <mxGeometry height="420" width="280" x="540.4" y="595.2" as="geometry" />
+        </mxCell>
+        <mxCell id="s1foQ6AiXAOV1JEkFpIX-44" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;" value="Khách hàng" vertex="1">
+          <mxGeometry height="50" width="30" x="390.4000244140625" y="665.2000122070312" as="geometry" />
+        </mxCell>
+        <mxCell id="s1foQ6AiXAOV1JEkFpIX-45" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;" value="Nhân viên kho" vertex="1">
+          <mxGeometry height="50" width="30" x="390.4000244140625" y="895.2000122070312" as="geometry" />
+        </mxCell>
+        <mxCell id="s1foQ6AiXAOV1JEkFpIX-46" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Đăng nhập" vertex="1">
+          <mxGeometry height="50" width="160" x="600.4000244140625" y="625.2000122070312" as="geometry" />
+        </mxCell>
+        <mxCell id="s1foQ6AiXAOV1JEkFpIX-47" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Đặt hàng" vertex="1">
+          <mxGeometry height="50" width="160" x="600.4000244140625" y="735.2000122070312" as="geometry" />
+        </mxCell>
+        <mxCell id="s1foQ6AiXAOV1JEkFpIX-48" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Áp dụng mã giảm giá" vertex="1">
+          <mxGeometry height="50" width="180" x="590.4000244140625" y="840.0000122070312" as="geometry" />
+        </mxCell>
+        <mxCell id="s1foQ6AiXAOV1JEkFpIX-49" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Cập nhật tồn kho" vertex="1">
+          <mxGeometry height="50" width="180" x="600.4000244140625" y="915.2000122070312" as="geometry" />
+        </mxCell>
+        <mxCell id="s1foQ6AiXAOV1JEkFpIX-50" edge="1" parent="1" source="s1foQ6AiXAOV1JEkFpIX-44" style="html=1;endArrow=none;" target="s1foQ6AiXAOV1JEkFpIX-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s1foQ6AiXAOV1JEkFpIX-51" edge="1" parent="1" source="s1foQ6AiXAOV1JEkFpIX-44" style="html=1;endArrow=none;" target="s1foQ6AiXAOV1JEkFpIX-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s1foQ6AiXAOV1JEkFpIX-52" edge="1" parent="1" source="s1foQ6AiXAOV1JEkFpIX-45" style="html=1;endArrow=none;" target="s1foQ6AiXAOV1JEkFpIX-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s1foQ6AiXAOV1JEkFpIX-56" edge="1" parent="1" source="s1foQ6AiXAOV1JEkFpIX-47" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="s1foQ6AiXAOV1JEkFpIX-46" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="680" y="740" as="sourcePoint" />
+            <mxPoint x="840" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s1foQ6AiXAOV1JEkFpIX-58" edge="1" parent="1" source="s1foQ6AiXAOV1JEkFpIX-48" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="s1foQ6AiXAOV1JEkFpIX-47" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="690" y="810" as="sourcePoint" />
+            <mxPoint x="850" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
